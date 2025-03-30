@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Express-delievery Smart Watches...</title>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="icon" type="image/png" href="Images/Rlogo.png" />
+<script src="Javascriptfile/Googlesheet.js" defer></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="output.css">
+<link rel="stylesheet" href="CSSfile/sliderbox.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSSfile/sidebar.css">
+<link rel="stylesheet" href="CSSfile/videoslider2.css">
+<link rel="stylesheet" href="CSSfile/imgslider.css">
+<link rel="stylesheet" href="CSSfile/scrollcontner.css">
+<link rel="stylesheet" href="CSSfile/index.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script src="Javascriptfile/audiobar.js" defer></script>
+<script src="Javascriptfile/popout.js" defer></script> 
+<script src="Javascriptfile/audiobr.js" defer></script>
+<script src="Javascriptfile/sidebar.js" defer></script>
+<script src="Javascriptfile/index.js" defer></script>
+<script src="Javascriptfile/index1.js" defer></script>
+<script src="Javascriptfile/buyproduct.js" defer></script>
+
+
+
+
+<body class="bg-[#f4f4f4]" style="box-sizing: border-box; background: linear-gradient(to right, #f4f4f4 0%, #f4f4f4 100%)">
+
+
+<!--Navbar  -->
+
+<nav class="nav-container  relative lg:pt-4  lg:h-[92px] lgbig:pt-6 lgbig:pb-6 lgbig:h-36">
+
+<div class="hidden ipdmini:block">        
+<div class="flex justify-end space-x-5 text-base font-bold pr-6 p-1 ipdmini:space-x-2 ipdmini:pr-2 ipdmini:text-sm">
+    
+<ul class="ipdmini:flex ipdmini:space-x-3 lg:text-sm pr-2 lgbig:text-xl lgbig:p-1">
+
+<li><a href="engraving.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Product Engraving</a></li>
+<li><a href="Giftcard.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Gift Store</a><li>
+<li><a href="expressdelievery.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Express Delievery</a></li>
+<li><a href="order.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Corporate Orders</a></li>      
+<ul><a href="Contactus.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Contact us</a></ul>
+
+</div> 
+</div>
+                                            
+<div class="conatiner samsung:pt-1 ipdmini:bg-gray-gradient samsung:bg-[#f8f9fb]   samsung:text-white samsung:flex lg:pl-2 lg:pr-2 samsung:justify-around  lg:flex lg:justify-between text-white font-semibold lgbig:p-2 ">
+<div class="lg:hidden ipdmini:hidden samsung:text-3xl samsung:pt-[5px] dots-buttontext-white ipdmini:px-10 ipdmini:pt-5  lg:pl-12 samsung:pl-0" onclick="toggleSidebar()">
+  <span class=" samsung:pt-1 samsung:text-black"><img src="Images/menu (1).png" alt="" class="w-5 my-auto"></span>           
+</div>
+                                                  
+<span class="uppercase  samsung:text-[#3d4889]  samsung:text-2xl nav-log Galaxyz:text-base font-bold  text-white lg:text-3xl lg:pl-3 lg:text-white lg:p-0 lgbig:pt-1 "><a href="index.html">Ronin</a></span>
+
+<span class="iphonese:block ipdmini:hidden  samsung:pt-[7px]  lg:hidden"><a href="#"><img src="Images/searchblack.png" alt="" class="w-6 samsung:w-5"></a></span>
+
+<span id="cart-icon1" class="samsung:block  ipdmini:hidden samsung:pt-[7px]"><a href="#"><img src="Images/shoppingblack.png" alt="" class="w-6 samsung:w-5"><span class="cart-item-count1"></span></a></span>    
+
+</ul>
+                                            
+
+<div class="hidden ipdmini:block  ">       
+
+<ul class="flex items-center space-x-3 p-1 ipdmini:space-x-5  ipdmini:pt-2 ipdmini:pb-2 ipdmini:text-sm lg:mr-4 lg:text-base lgbig:text-xl lgbig:space-x-12 lg:pb-3 ">
+
+<form id="audiobar1">
+<li><a href="#" class="hover:bg-slate-500 hover:rounded-2xl hover:p-1">Audio & Buds</a></li>
+</form>
+
+<form id="watches1">
+<li><a href="#" class="hover:bg-slate-500 hover:rounded-2xl hover:p-1">Smart Watches</a></li>
+</form>
+
+<form id="product3">
+<li><a href="#" class="hover:bg-slate-500 hover:rounded-2xl hover:p-1">Charging Devices</a></li>
+</form>
+
+<form id="product4">
+<li><a href="#" class="hover:bg-slate-500 hover:rounded-2xl hover:p-1">Accessories</a></li>
+</form>
+
+<li><a href="#" class="hover:bg-slate-500 hover:rounded-2xl hover:p-1"><img src="Images/search.png" alt="" class="w-6 max-w-5 min-w-4"></button></a></li>
+
+<li><a href="#" id="formlogin"><img src="Images/user (5).png" alt="" class="max-w-[18px] min-w-4 hover:bg-slate-500 hover:rounded-full"></a></li>
+
+<li id="cart-icon"><a href="#"><img src="Images/shopping-cart.png" alt="" class="max-w-5 min-w-4 hover:bg-slate-500 hover:rounded-full"><span class="cart-item-count"></span></a></li>
+
+</ul>
+
+</div>                                            
+</div>   <!--End-->
+                                            
+</nav>   <!--End Navbar  -->
+
+
+<div class="cart">
+  <h2 class="cart-title">Your Cart</h2>
+<div class="cart-content">
+<!-- <div class="cart-box">
+  <img src="img4.jpeg" class="cart-img" alt="Product Image">
+<div class="cart-detail">
+<h2 class="cart-product-title">Casual Black Polo</h2>
+<span class="cart-price">$100</span>
+<div class="cart-quantity">
+<button id="decrement">-</button>
+<span class="number">1</span>
+<button id="increment">+</button>
+</div>
+</div>
+<i class="cart-remove"><img src="Delete.png" alt=""></i>
+</div> -->
+</div>
+<div class="total">
+<div class="total-title">Total</div>
+<div class="total-price">$0</div>
+</div>
+
+<button class="btn-buy">Buy Now</button>
+<i id="cart-close"><img src="close.png" alt=""></i>
+</div>
+    
+
+                                            
+<div class="sidebar" id="sidebar">               
+
+<span  class="text-[#3d4272] text-2xl font-bold absolute top-[4px] left-[3px] ">RONIN</span>        
+<span class="close-btn absolute  rounded-full right-[-15px] top-[13px] items-center justify-center  text-center cursor-pointer w-12 h-12" onclick="toggleSidebar()"><img src="Images/close (1).png" alt="" class="w-4"></span> 
+<hr class=" w-[250px]  border border-b-1 border-slate-300 mt-7 ">  
+<span class=" text-black text-xl pt-2 pl-1">Category</span>  
+
+
+<div class="adio flex justify-between items-center pl-1 pr-4 mr-4 ">
+<div class="w-60"><a href="#" onclick="openChildSidebar()" class="">Audio & Buds</a></div>
+<div class="text-black text-xl mt-4 p-1"><span><i class="fa-sharp fa-solid fa-caret-right"></i></span></div>
+</div>
+
+<div class="adio flex justify-between items-center pl-1 pr-4 mr-4">
+<div class="w-60"><a href="#" onclick="openChildSidebar1()" class="">Smart Watches</a></div>
+<div class="text-black text-xl mt-4 p-1"><span><i class="fa-sharp fa-solid fa-caret-right"></i></span></div>
+</div>
+
+<div class="adio flex justify-between items-center pl-1 pr-4 mr-4">
+<div class="w-60"><a href="#" onclick="openChildSidebar2()" class="">Charging Devices</a></div>
+<div class="text-black text-xl mt-4 p-1"><span><i class="fa-sharp fa-solid fa-caret-right"></i></span></div>
+</div>
+  
+<div class="adio flex justify-between items-center pl-1 pr-4 mr-4">
+<div class="w-60"><a href="#" onclick="openChildSidebar3()" class="">Accessories</a></div>
+<div class="text-black text-xl mt-4 p-1"><span><i class="fa-sharp fa-solid fa-caret-right"></i></span></div>
+</div>
+                                              
+<hr class=" w-[250px] mx-auto  border border-b-2 border-slate-300 mt-7">  
+ 
+
+<ul class="simpleanchor ml-1">
+  <li><a href="engraving.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Product Engraving</a></li>
+  <li><a href="Giftcard.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Gift Store</a></li>
+  <li><a href="expressdelievery.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Express Delievery</a></li>
+  <li><a href="order.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Corporate Orders</a></li>
+  <li><a href="Contactus.html" class="hover:text-blue-700 hover:transition-all hover:delay-100 hover:ease-in-out ">Contact us</a></li>
+</ul>
+                                            
+</div>                                            
+                                            
+      
+<!-- Child Sidebar -->
+                                            
+<div class="child-sidebar relative" id="childSidebar">
+                                              
+<div class="close-btn1" onclick="closeChildSidebar()"><span class="text-xl"><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Audio & Buds</div>
+                                            
+<div class="sidebarchild1"></div> 
+
+
+<!-- Button -->
+
+<div class="flex justify-between mr-4">
+<div><button onclick="toggleChildSidebar('childSidebar11')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Earbuds</button></div>
+<div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('childSidebar22')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">HandsFree</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('childSidebar33')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Neckbands</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('childSidebar44')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Headphone</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+
+<!--Earbuds  -->
+
+<div id="childSidebar11" class="sidebarrough">
+<button onclick="toggleChildSidebar('childSidebar11')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Earbuds</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline">View all</a>      
+<p class="p-[5px] ml-[2px] mt-5 font-bold font-sans text-xl">Earbuds</p>
+                                                    
+<div class="sidebarchild1">
+                                                    
+<div class=" w-[120px]  mt-5">                                             
+<img src="Images/childimg1.png" alt="" class="mx-auto">
+<a href="addcart2.html" class="text-xs font-bold px-[3px] text-center block">ANC Earbuds</a>
+</div>
+                                                    
+<div class=" w-[120px] mt-5">
+  <img src="Images/childimg2.png" alt="" class="mx-auto w-[30px]">
+  <a href="addcart2.html" class="text-xs font-bold text-center block">ENC Earbuds</a>
+</div>
+                                                    
+<div class=" w-[120px] mt-5 ">
+  <img src="Images/childimg3.png" alt="" class="mx-auto w-[46px]">
+  <a href="addcart2.html" class="text-xs font-bold text-center block">Best Earbuds for Calling</a>
+</div>
+                                                            
+<div class="w-[120px] mt-5">
+  <img src="Images/childimg4.png" alt="" class="mx-auto">
+  <a href="addcart2.html" class="text-xs font-bold text-center block ">Gaming Earbuds</a>
+</div>
+                                                    
+<div class="w-[120px] mt-5">
+  <img src="Images/childimg5.png" alt="" class="mx-auto">
+  <a href="addcart2.html" class="text-xs font-bold text-center block">Fitness and Support Earbuds</a>
+</div>
+                                                    
+<div class="w-[120px] mt-5  flex pt-[46px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>
+                                                    
+</div>
+                                            
+</div>    
+
+<!-- End earbuds      -->
+                                            
+<!--Handsfree  -->
+
+                                            
+<div id="childSidebar22" class="sidebarrough">
+                                            
+<button onclick="toggleChildSidebar('childSidebar22')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Handsfree</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline">View all</a>      
+<p class="p-[5px] ml-[2px] mt-5 font-bold font-sans text-xl">HandsFree</p>
+                                                      
+<div class="sidebarchild1">
+                                                      
+<div class=" w-[120px]  mt-5">
+<img src="Images/earphone6.png" alt="" class="mx-auto w-10">
+<a href="addcart2.html" class="text-xs font-bold px-[3px] text-center block">Iphone Earphone</a>
+</div>
+                                                      
+<div class=" w-[120px] mt-5">
+<img src="Images/earphone7.png" alt="" class="mx-auto w-[42.2px]">
+<a href="addcart2.html" class="text-xs font-bold text-center block">Gaming Earphone</a>
+</div>
+                                                    
+<div class=" w-[120px] mt-5">
+<img src="Images/earphone7.png" alt="" class="mx-auto w-[42.2px]">
+<a href="addcart2.html" class="text-xs font-bold text-center block">Gaming Earphone</a>
+</div>
+                                            
+<div class="w-[120px] mt-5  flex pt-[40px]">
+<a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+<img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>
+                                                      
+</div>
+                                              
+</div>    
+
+<!--End earbuds  -->
+                                            
+<!--SmartWatch  -->
+                                            
+<div id="childSidebar33" class="sidebarrough">
+                                            
+<button onclick="toggleChildSidebar('childSidebar33')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Smart Watches</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline">View all</a>      
+<p class="p-[5px] ml-[2px] mt-5 font-bold font-sans text-xl">Smart Watches</p>
+                                                      
+<div class="sidebarchild1">
+                                                      
+<div class=" w-[120px]  mt-5">
+  <img src="Images/watch1.png" alt="" class="mx-auto w-10">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">Round Dial SmartWatch</a>
+</div>
+                                                      
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch2.png" alt="" class="mx-auto w-9">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Square Dial Smart Watch</a>
+</div>
+                                                  
+                                            
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch3.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Silicon Smart Watch</a>
+</div>
+                                            
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch4.png" alt="" class="mx-auto w-[38px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Metallic Smart Watch</a>
+</div>
+                                            
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch5.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Luxury Smart Watch</a>
+</div>
+                                            
+<div class="w-[120px] mt-5  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>
+                                                    
+</div>
+                                              
+</div>    
+
+<!--smartwatch  -->    
+                                            
+<!--Handsfree  -->
+                                            
+<div id="childSidebar44" class="sidebarrough">
+                                            
+<button onclick="toggleChildSidebar('childSidebar44')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Headphone</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 pr-2 underline">View all</a>      
+<p class="p-[5px] ml-[2px] mt-5 font-bold font-sans text-xl">Handphone</p>
+                                                      
+<div class="sidebarchild1">
+<div class=" w-[120px]  mt-5">
+  <img src="Images/earphone6.png" alt="" class="mx-auto w-10">
+  <a href="addcart2.html" class="text-xs font-bold px-[3px] text-center block">Iphone Earphone</a>
+</div>
+                                                      
+<div class=" w-[120px] mt-5">
+  <img src="Images/earphone7.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart2.html" class="text-xs font-bold text-center block">Gaming Earphone</a>
+</div>
+                                                    
+<div class=" w-[120px] mt-5">
+  <img src="Images/earphone7.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart2.html" class="text-xs font-bold text-center block">Gaming Earphone</a>
+</div>
+                                            
+<div class="w-[120px] mt-5  flex pt-[40px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>
+                                                      
+</div>
+                                              
+</div>    
+
+<!--Handsfree  -->
+
+</div>
+
+<!-- And end Audio and buds  -->
+                                            
+                                            
+                                            
+
+<!-- 2nd child Smart Watches -->
+                                              
+
+<div class="child-sidebar12 relative" id="child-sidebar12">
+<div class="close-btn2" onclick="closeChildSidebar1()"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Smart Watches</div>
+                                            
+<div class="sidebarchild1"></div> 
+                                            
+
+<!-- Button -->
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Menwatches')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Men Smart Watches</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Femalewatches')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Woman Smart Watches</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+                                            
+
+<!--Men watches  -->
+
+<div id="Menwatches" class="sidebarrough">
+                                            
+<button onclick="toggleChildSidebar('Menwatches')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Smart Watches</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[3px] ml-[2px] mt-5 font-bold font-sans text-xl">Men smartwatches</p>
+                                                      
+<div class="sidebarchild1">
+                                                      
+<div class=" w-[120px]  mt-5">
+  <img src="Images/watch1.png" alt="" class="mx-auto w-10">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">Round Dial SmartWatch</a>
+</div>
+                                                          
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch2.png" alt="" class="mx-auto w-9">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Square Dial Smart Watch</a>
+</div>
+                                                      
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch3.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Silicon Smart Watch</a>
+</div>
+                                                
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch4.png" alt="" class="mx-auto w-[38px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Metallic Smart Watch</a>
+</div>
+                                                
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch5.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Luxury Smart Watch</a>
+</div>
+                                                
+<div class="w-[120px] mt-5  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>            
+
+</div>  
+                                            
+</div>    
+
+<!--End Men Watches  -->    
+                                              
+                                            
+<!--WoMen watches  -->
+                                            
+<div id="Femalewatches" class="sidebarrough">
+                                            
+<button onclick="toggleChildSidebar('Femalewatches')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Smart Watches</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[3px] m-1 mt-5 font-bold font-sans text-xl">Woman smartwatches</p>
+                                                      
+<div class="sidebarchild1">
+                                                      
+<div class=" w-[120px]  mt-5">
+  <img src="Images/watch1.png" alt="" class="mx-auto w-10">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">Square Dial SmartWatch</a>
+</div>
+                                                          
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch2.png" alt="" class="mx-auto w-9">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Round Dial Smart Watch</a>
+</div>
+                                                      
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch3.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Silicon Smart Watch</a>
+</div>
+                                                
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch4.png" alt="" class="mx-auto w-[38px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Metallic Smart Watch</a>
+</div>
+                                                
+<div class=" w-[120px] mt-5">
+  <img src="Images/watch5.png" alt="" class="mx-auto w-[42.2px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Luxury Smart Watch</a>
+</div>
+                                                
+<div class="w-[120px] mt-5  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>            
+</div>  
+                                            
+</div>    
+
+<!--End WoMen Watches  -->    
+                                            
+</div> 
+
+<!-- End smartwatches session -->
+                                            
+                                            
+<!-- Child 3 -->
+                                            
+<!-- Charging session -->
+                                            
+<div class="child-sidebar12 relative" id="Charging">
+
+<div class="close-charging" onclick="closeChildSidebar2()"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Charging Devices</div>
+<div class="sidebarchild1"></div> 
+                                              
+<!-- Button -->
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Powerbank')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">PowerBank</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Cables')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Cables</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('MobileCharger')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Mobile Charger</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+                                              
+<!--Powerbank  -->
+                                            
+<div id="Powerbank" class="sidebarrough">
+                                              
+  <button onclick="toggleChildSidebar('Powerbank')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Charging</button>
+  <a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+  <p class="p-[5px] ml-[2px] mt-5 font-bold font-sans text-xl">PowerBank</p>
+                                                        
+<div class="sidebarchild1">
+<div class=" w-[120px]  mt-5">
+  <img src="Images/powerbank2.png" alt="" class="mx-auto w-8">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">PowerBank 1000mah</a>
+</div>
+                                                            
+<div class=" w-[120px] mt-5">
+  <img src="Images/powerbank2.png" alt="" class="mx-auto w-8">
+  <a href="addcart.html" class="text-xs font-bold text-center block">PowerBank 2000mah</a>
+</div>
+                                              
+</div>    
+</div>  
+
+<!--End Powerbank  -->    
+                                              
+<!--Cables  -->
+
+<div id="Cables" class="sidebarrough">
+                                              
+<button onclick="toggleChildSidebar('Cables')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Charging</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[3px] m-1 mt-5 font-bold font-sans text-xl">Cables</p>
+                                                        
+<div class="sidebarchild1">
+<div class=" w-[120px]  mt-5">
+  <img src="Images/cable1.png" alt="" class="mx-auto w-24">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">Iphone Cable</a>
+</div>
+                                                            
+<div class=" w-[120px] mt-5">
+  <img src="Images/cable2.png" alt="" class="mx-auto w-10">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Type-c</a>
+</div>
+                                                        
+<div class=" w-[120px] mt-10">
+  <img src="Images/typeccable.png" alt="" class="mx-auto w-12">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Micro Cable</a>
+</div>
+                                                  
+<div class="w-[120px] mt-16  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>            
+                                            
+</div>  
+                                              
+</div>    
+
+<!--End Cables  -->    
+                                            
+<!--Charger  -->
+                                            
+<div id="MobileCharger" class="sidebarrough">
+                                              
+<button onclick="toggleChildSidebar('MobileCharger')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Charging</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[3px] m-1 mt-5 font-bold font-sans text-xl">Mobile Charger</p>
+                                                          
+<div class="sidebarchild1">
+                                                          
+<div class=" w-[120px]  mt-5">
+  <img src="Images/charger1.png" alt="" class="mx-auto w-[49px]">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">Iphone Charger</a>
+</div>
+                                                              
+<div class=" w-[120px] mt-5">
+  <img src="Images/charger2.png" alt="" class="mx-auto w-[52px]">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Android Charger</a>
+</div>
+                                                          
+<div class=" w-[120px] mt-10">
+  <img src="Images/charger3.png" alt="" class="mx-auto w-18">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Type-c Charger</a>
+</div>
+                                                    
+<div class="w-[120px] mt-6  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>    
+                                            
+</div>  
+                                                
+</div>
+
+<!--End mobile-charger  --> 
+                                            
+</div>
+
+<!-- End Charging session -->
+                                              
+                                            
+<!-- Child 4 -->
+                                            
+<!-- Accessories session -->
+                                            
+<div class="child-sidebar12 relative" id="Accessories">
+<div class="close-asseccories" onclick="closeChildSidebar3()"><span class=""><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Accessories</div>
+                                                
+<div class="sidebarchild1"></div> 
+                                                
+                                            
+
+<!-- Button -->
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Livetracer')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Live Tracker</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Cables2')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Cables</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+<div class="flex justify-between mr-4">
+  <div><button onclick="toggleChildSidebar('Smartwatchstraps')" class="btntoggle m-2 text-base font-sans font-semibold   p-2">Smart Watch Straps</button></div>
+  <div class="mt-4"><span><i class="fa-solid fa-plus"></i></span></div>  
+</div>
+
+                                                
+<!--Livetracker  -->
+                                              
+<div id="Livetracer" class="sidebarrough">
+                                                
+<button onclick="toggleChildSidebar('Livetracer')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Accessories</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[5px] ml-2 mt-5 font-bold font-sans text-xl">Live Tracker</p>
+                                                          
+<div class="sidebarchild1">
+                                                                  
+<div class=" w-[120px] mt-5 ml-1">
+  <img src="Images/tracker22.png" alt="" class="mx-auto w-14">                                              
+<a href="addcart.html" class="text-xs font-bold text-center block ">R-102 Smart Tracker</a>
+</div>
+                                                
+</div>    
+</div>
+
+<!--End Tracker  -->    
+                                                  
+
+<!--Cables  -->
+                                            
+
+<div id="Cables2" class="sidebarrough">
+                                                
+<button onclick="toggleChildSidebar('Cables2')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Accessories</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[3px] ml-2 mt-5 font-bold font-sans text-xl">Cables</p>
+                                                          
+<div class="sidebarchild1">
+<div class=" w-[120px]  mt-5">
+  <img src="Images/cable1.png" alt="" class="mx-auto w-24">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block">Iphone Cable</a>
+</div>
+                                                              
+<div class=" w-[120px] mt-5">
+  <img src="Images/cable2.png" alt="" class="mx-auto w-10">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Type-c</a>
+</div>
+                                                          
+<div class=" w-[120px] mt-10">
+  <img src="Images/typeccable.png" alt="" class="mx-auto w-12">
+  <a href="addcart.html" class="text-xs font-bold text-center block">Micro Cable</a>
+</div>
+                                                    
+<div class="w-[120px] mt-16  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>            
+                                               
+</div>  
+                                                
+</div>    
+                                                
+
+<!--End Cable  -->    
+                                              
+<!--Smart Watches Strap  -->
+                                            
+<div id="Smartwatchstraps" class="sidebarrough">
+                                                
+<button onclick="toggleChildSidebar('Smartwatchstraps')" class="mt-[12px] p-1"><span><i class="fa-sharp fa-solid fa-chevron-left"></i> &nbsp;</span>Accessories</button>
+<a href="addcart.html" class="viewall absolute right-0 top-[12px] p-1 underline pr-2">View all</a>      
+<p class="p-[3px] ml-2 mt-5 font-bold font-sans text-xl">Smart Watches Strap</p>
+                                                            
+<div class="sidebarchild1">
+                                                            
+<div class=" w-[120px] mt-5">
+  <img src="Images/strap1.png" alt="" class="mx-auto w-[49.4px]">
+  <a href="addcart.html" class="text-xs font-bold px-[3px] text-center block pt-1">Silicon Watch Strap</a>
+</div>
+                                                                
+<div class=" w-[120px] mt-5">
+  <img src="Images/strap2.png" alt="" class="mx-auto w-8">
+  <a href="addcart.html" class="text-xs font-bold text-center block pt-1">Strap Watch</a>
+</div>
+                                                            
+<div class=" w-[120px] mt-10">
+  <img src="Images/strap3.png" alt="" class="mx-auto w-8">
+  <a href="addcart.html" class="text-xs font-bold text-center block pt-1">Nylon Watch Strap </a>
+</div>
+                                                      
+<div class="w-[120px] mt-8  flex pt-[30px]">
+  <a href="addcart.html" class="text-xs font-bold pl-8">View All</a>
+  <img src="Images/viewall.png" alt="" class="w-5 h-[18px] pl-1">
+</div>            
+                                            
+</div>  
+                                            
+</div>
+
+<!--End Smart watch Strap  -->    
+                                                  
+</div>
+
+<!-- End Accessories session -->
+
+<!-- section audiobar -->
+<section id="audiobar">
+  <div class="pop-up hidden  fixed  top-[45.1%] lg:top-[50%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent 
+  z-[1000] w-[720px] h-[60vh] lg:h-[60vh] shadow-md rounded-lg" id="pop-up" style="background-color: rgba(255, 255, 255, 0.5);">
+  <!-- <button id="close" class="absolute  right-[0px] top-[1px] bg-white p-1 rounded-full"><img src="Images/close (1).png" alt="" srcset="" class="w-4"></button>     -->
+
+<div class=" flex space-x-16 ousidewhole  m-2 ">
+<div>
+<ul class="text-xl font-serif ml-7 pt-[76px] leading-loose">
+  <li id="earBuds" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500  p-2 rounded-md">Earbuds</a></li>
+  <li id="Handsfree" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">HandsFree</a></li>
+  <li id="Neckbands" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">Neckbands</a></li>
+  <li id="Headphone" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">Headphone</a></li>
+</ul>
+</div>
+<div class="h-48  border-y-white border-2  mt-16">
+
+</div>
+
+<!-- <div class="secondcontainer"> -->
+
+<div id="popupearbuds" class="grid hidden  h-22 m-10  gap-20 grid-cols-2">
+
+<!--start box1  -->
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[134px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/childimg1.png" alt="" class="mx-auto absolute  top-[-22px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart2.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">ENC Earbuds</a>  
+</div>
+</div>
+<!-- end box1 -->
+
+<!--start box2  -->
+<div class="w-[134px] h-20 relative "> 
+  <div class="box3 w-[134px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/childimg2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart2.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">ANC Earbuds</a>  
+</div>
+</div>
+
+<!-- end box2 -->
+
+
+<!--start box3  -->
+<div class="w-[134px] relative h-20 "> 
+<div class="box3 w-[134px]  h-20 p-[3px] shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/childimg3.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart2.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Fitness and support Earbuds</a>  
+</div>
+</div>
+<!-- end box3 -->
+
+<!--start box4  -->
+<div class="w-[134px] h-20 relative "> 
+  <div class="box3 w-[134px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+    <img src="Images/childimg4.png" alt="" class="mx-auto absolute  top-[-28px] w-12 left-1/2 transform -translate-x-1/2">
+    <a href="addcart2.html" class="text-center text-xs block pt-8 p-1 hover:text-red-500 ">Gaming Earbuds</a>  
+</div>
+</div>
+<!-- end box4 -->
+
+
+</div>
+<!-- </div> -->
+<!--end Earbuds  -->
+
+<!-- Handsfree auidobar -->
+<div id="popuphandsfree" class="hidden w-22 h-22 m-10 gap-20 grid grid-cols-2">
+
+<!--start box1 Handsfree  -->
+<div class="w-[134px] h-20  relative"> 
+  <div class="box3 w-[134px] p-3 h-[110px] shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+    <img src="Images/earphone6 - Copy2.png" alt="" class="mx-auto absolute  top-[-24px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+    <a href="addcart.html" class="text-center text-xs block pt-16 p-1  hover:text-red-500">Iphone handsfree</a>  
+  </div>
+  </div>
+  <!-- end box1 -->
+  
+  <!--start box2  -->
+  <div class="w-[134px]  relative "> 
+    <div class="box3 w-[134px] h-[110px] p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+    <img src="Images/earphone7.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+    <a href="addcart.html" class="text-center text-xs block pt-16 p-1  hover:text-red-500">Type-c handsfree</a>  
+  </div>
+  </div>
+  
+  <!-- end box2 handsfree-->
+  
+  
+
+</div>
+
+<div id="popupneckband" class="hidden w-22 h-22  h-22 grid grid-cols-2  gap-20  m-10">
+
+<!--start Neckband  -->
+
+<div class="w-[134px] relative"> 
+<div class="box3 w-[130px] p-3 h-24 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch1.png" alt="" class="mx-auto absolute  top-[-22px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-10 p-1  hover:text-red-500">Iphone handsfree</a>  
+</div>
+</div>
+<!-- end Neckband -->
+  
+<!--start Neckband  -->
+
+<div class="w-[134px]  relative "> 
+<div class="box3 w-[130px] h-24 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-10 p-1  hover:text-red-500">Type-c handsfree</a>  
+</div>
+</div>
+  
+  <!-- end box2 Neckband-->
+
+<!--start Neckband box 3  -->
+
+<div class="w-[134px]  relative "> 
+<div class="box3 w-[130px] h-24 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch3.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-10 p-1  hover:text-red-500">Type-c handsfree</a>  
+</div>
+</div>
+    
+<!-- end box3 Neckband-->
+  
+
+</div>
+
+<div id="popupheadphone" class="hidden w-22 grid grid-cols-2 gap-20 h-22  m-10">
+
+<!--start Handsfree box1  -->
+
+<div class="w-[134px] relative"> 
+<div class="box3 w-[130px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/headphone1.png" alt="" class="mx-auto absolute  top-[-20px] w-12 left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Iphone handsfree</a>  
+</div>
+</div>
+<!-- end handsfree  -->
+    
+<!--start handsfree box 2  -->
+  
+<div class="w-[134px]  relative "> 
+<div class="box3 w-[130px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/headphone2.png" alt="" class="mx-auto absolute  top-[-15px] w-16 left-1/2 transform -translate-x-1/2">
+  <a href="addcart2.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Type-c handsfree</a>  
+  
+</div>
+</div>
+    
+
+<!-- end box2 Handsfree-->
+  
+  
+
+</div>
+
+
+</div>
+</div>
+</section>
+<!-- Audio & Buds -->
+
+
+<!-- Smart Watches -->
+
+<section id="smartwatch">
+  
+<div class="pop-up hidden  fixed  top-[45.1%] lg:top-[50%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent 
+  z-[1000] w-[720px] h-[60vh] lg:h-[60vh] shadow-md rounded-lg" id="pop-upwatch" style="background-color: rgba(255, 255, 255, 0.5);">
+  
+<!-- <button id="closewath" class="absolute  right-[0px] top-[1px] bg-white p-1 rounded-full"><img src="Images/close (1).png" alt="" srcset="" class="w-4"></button>     -->
+
+<div class=" flex space-x-16 ousidewhole  m-2 ">
+<div class="mt-24 ">
+<ul class="text-xl font-serif ml-7  leading-loose">
+  <li id="Men" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 ">Men</a></li>
+  <li id="Women" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500  p-2 rounded-md">Women</a></li>
+</ul>
+</div>
+
+<div class="h-48  border-y-white border-2  mt-16">
+</div>
+
+<!-- <div class="secondcontainer"> -->
+
+<div id="menwatchpop" class="grid hidden  h-22 m-10  gap-20 grid-cols-2">
+
+<!--start box1  -->
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[134px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch1.png" alt="" class="mx-auto absolute  top-[-22px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">ios Watch Series 9</a>  
+</div>
+</div>
+<!-- end box1 -->
+
+<!--start box2  -->
+<div class="w-[134px] h-20 relative "> 
+  <div class="box3 w-[134px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Samsung Galaxy Watch 6</a>  
+</div>
+</div>
+
+<!-- end box2 -->
+
+
+<!--start box3  -->
+<div class="w-[134px] relative h-20 "> 
+<div class="box3 w-[134px]  h-20 p-[3px] shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch3.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Garmin Forerunner 965</a>  
+</div>
+</div>
+<!-- end box3 -->
+
+<!--start box4  -->
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[134px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch4.png" alt="" class="mx-auto absolute  top-[-28px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-6 p-1 hover:text-red-500 ">Google Pixel Watch 2</a>  
+</div>
+</div>
+<!-- end box4 -->
+
+
+</div>
+<!-- </div> -->
+
+<!--end Men  -->
+
+<!-- women smartwatch -->
+
+<div id="womenpopup" class="hidden w-22 h-22 m-10 gap-20 grid grid-cols-2">
+
+<!--start box1 watchwomen  -->
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[134px] p-3 h-[110px] shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch5.png" alt="" class="mx-auto absolute  top-[-24px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-16 p-1  hover:text-red-500">Garmin Venu 2S</a>  
+</div>
+</div>
+  <!-- end box1 -->
+  
+  <!--start box2  watchwomen-->
+  
+<div class="w-[134px]  relative "> 
+<div class="box3 w-[134px] h-[110px] p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/watch6.png" alt="" class="mx-auto absolute  top-[-19px] w-16 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-16 p-1  hover:text-red-500">Amazfit GTR 4</a>  
+</div>
+</div>
+  
+  <!-- end box2 woman-->
+  
+
+</div>
+  
+</div>
+</div>
+</section>
+<!-- End Smartwatch -->
+
+
+<!-- Charaging Device -->
+
+<section id="smartwatch">
+  
+<div class="pop-up hidden  fixed  top-[45.1%] lg:top-[50%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent 
+z-[1000] w-[720px] h-[60vh] lg:h-[60vh] shadow-md rounded-lg" id="pop-upcharging" style="background-color: rgba(255, 255, 255, 0.5);">
+
+<!-- <button id="close-chrging" class="absolute  right-[0px] top-[1px] bg-white p-1 rounded-full"><img src="Images/close (1).png" alt="" srcset="" class="w-4"></button>     -->
+  
+<div class=" flex space-x-20 ousidewhole  m-2 ">
+<div>
+
+<ul class="text-xl font-serif ml-7 pt-[76px] leading-loose">
+  <li id="cable" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500  p-2 rounded-md">Cables</a></li>
+  <li id="powerBnk" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">Power Bank</a></li>
+  <li id="Mobilecharger" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">Mobile Charges</a></li>
+</ul>
+
+</div>
+  
+<div class="h-48  border-y-white border-2  mt-16">
+  </div>
+  
+<!-- <div class="secondcontainer"> -->
+  
+<div id="popupcable" class="grid hidden  h-22 m-10  gap-20 grid-cols-2">
+  
+<!--start  Cable box1  -->
+  
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[120px] p-3 h-18 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/cable1.png" alt="" class="mx-auto absolute  top-[0px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Type-c Cable</a>  
+</div>
+</div>
+<!-- end box1 -->
+  
+<!--start box2  -->
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[120px] h-18 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/cable2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">IOS Cable</a>  
+
+</div>
+</div>
+  
+<!-- end box2 -->
+  
+<!--start box3  -->
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[120px] h-18 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/cable2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">IOS Cable</a>    
+</div>
+</div>
+    
+<!-- end Cable box3 -->
+  
+</div>  <!--end Cable  -->
+  
+
+<!-- Powerbank -->
+  
+<div id="popupbank" class="hidden w-22 h-22 m-10 gap-20 grid grid-cols-2">
+
+<!--start  Cable box1  -->
+  
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[134px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/powerbank1.png" alt="" class="mx-auto absolute  top-[-20px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Powerbank 1000mah</a>  
+</div>
+</div>
+  <!-- end box1 -->
+    
+  <!--start box2  -->
+
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[124px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/powerbank2.png" alt="" class="mx-auto absolute  top-[-22px] w-8 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Powerbank 2000mah</a>  
+</div>
+</div>
+    
+  <!-- end box2 -->  
+
+</div> <!-- end box2 powerbank-->
+    
+<!-- Mobile Charger -->
+  
+<div id="popupmobile" class="hidden w-22 h-22 m-10 gap-20 grid grid-cols-2">
+  
+<!--start box1 charger  -->
+
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[124px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/charger1.png" alt="" class="mx-auto absolute  top-[-16px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">IOS Charger</a>  
+  
+</div>
+</div> <!-- end box1 -->
+      
+
+<!--start box2 charger -->
+
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[124px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/charger2.png" alt="" class="mx-auto absolute  top-[-16px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Ronin Charger</a>  
+    
+</div>
+</div>   <!-- charger 2 end -->
+
+</div>
+</div>
+
+</section>
+
+
+<!-- end charging  -->
+
+<!-- Assecories -->
+
+<section id="Assecories ">
+  
+<div class="pop-up hidden  fixed  top-[45.1%] lg:top-[50%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent 
+z-[1000] w-[720px] h-[60vh] lg:h-[60vh] shadow-md rounded-lg" id="pop-upasseccories" style="background-color: rgba(255, 255, 255, 0.5);">
+  
+  <!-- <button id="close-chrging" class="absolute  right-[0px] top-[1px] bg-white p-1 rounded-full"><img src="Images/close (1).png" alt="" srcset="" class="w-4"></button>     -->
+    
+<div class=" flex space-x-16 ousidewhole  m-2 ">
+<div>
+  
+<ul class="text-xl font-serif ml-7 pt-[76px] leading-loose">
+  <li id="ascable" class="w-40 hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500  p-2 rounded-md">Cables</a></li>
+  <li id="livetracker" class="w-[227px] hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">Live Tracker</a></li>
+  <li id="watchstrap" class="w-[227px] hover:bg-slate-500 text-center rounded-2xl"><a href="#" class="active:to-blue-500 p-2 rounded-md">Smart Watches Straps</a></li>
+</ul>
+  
+</div>
+    
+<div class="h-48  border-y-white border-2  mt-16">
+</div>
+    
+<!-- <div class="secondcontainer"> -->
+    
+<div id="watchble" class="grid hidden  h-22 m-10  gap-20 grid-cols-2">
+    
+    <!--start  Cable box1  -->
+    
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[120px] p-3 h-18 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/cable1.png" alt="" class="mx-auto absolute  top-[0px] w-[58px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Type-c Cable</a>  
+</div>
+</div>
+<!-- end box1 -->
+    
+<!--start box2  -->
+
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[120px] h-18 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/cable2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">IOS Cable</a>  
+</div>
+</div>
+    
+<!-- end box2 -->
+    
+<!--start box3  -->
+
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[120px] h-18 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/cable2.png" alt="" class="mx-auto absolute  top-[-22px] w-12 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">IOS Cable</a>  
+    
+</div>
+</div>
+      
+<!-- end Cable box3 -->
+    
+</div>  <!--end Cable  -->
+    
+  
+<!-- Smart watches -->
+    
+  <div id="Tracker" class="hidden w-22 h-22 m-10 gap-20 grid grid-cols-2">
+  
+  <!--start  Cable box1  -->
+    
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[134px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/tracker1.png" alt="" class="mx-auto absolute  top-[-20px] w-[40px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Ronin Tracker series 2</a>  
+    
+</div>
+</div>
+<!-- end box1 -->
+      
+<!--start box2  -->
+
+<div class="w-[134px] h-20 relative "> 
+<div class="box3 w-[124px] h-20 p-3 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/tracker22.png" alt="" class="mx-auto absolute  top-[-22px] w-16 left-1/2 transform -translate-x-1/2">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Tracker series 3</a>  
+    
+</div>
+</div>
+      
+<!-- end box2 -->  
+  
+</div> <!-- end box2 powerbank-->
+      
+<!-- Mobile Charger -->
+    
+<div id="Strap" class="hidden w-22 h-22 m-10 gap-20 grid grid-cols-2">
+    
+<!--start box1 charger  -->
+  
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[124px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/strap1.png" alt="" class="mx-auto absolute  top-[-16px] w-[40px] left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Milanese Loop</a>  
+</div>
+</div> <!-- end box1 -->
+        
+<!--start box2 charger -->
+  
+<div class="w-[134px] h-20  relative"> 
+<div class="box3 w-[124px] p-3 h-20 shadow-md rounded-2xl " style="background-color: rgba(255, 255, 255, 0.8);">
+  <img src="Images/strap3.png" alt="" class="mx-auto absolute  top-[-16px] w-8 left-1/2 transform -translate-x-1/2 ">
+  <a href="addcart.html" class="text-center text-xs block pt-8 p-1  hover:text-red-500">Leather Strap </a>  
+      
+</div>
+</div>   <!-- charger 2 end -->
+
+</div>
+</div>
+
+</section>
+  
+
+
+  
+<!-- End Asseccories -->
+  
+
+                                        <!--Login Window -->
+                                        
+<section id="login">
+<div class="pop-up hidden bg-transparent fixed top-[55%]  lg:top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1000] w-[450px]  h-[60vh] lg:h-[60vh] shadow-md rounded-xl " id="pop-up1" style="background-color: rgba(255, 255, 255, 0.5);">
+                                                                                                                                      
+<div class="popup-content p-5 rounded-lg ">
+                                                                                                                                         
+                                  <!-- Animation Image -->     
+                                                                                      
+<button id="close1" class="absolute  right-[-4px] top-[0px]"><img src="Images/close2.png" alt="" srcset="" class="w-6"></button>
+                                                                                                                                          
+<div class="absolute left-1/2 transform -translate-x-1/2 mt-[28px] lg:absolute lg:top-0" >
+                                                                                                                                                                                    
+
+<!-- Animation Image -->
+                                                                                      
+<dotlottie-player src="https://lottie.host/464f0c45-be89-416d-a67c-20b9c0c17334/Kh1sTSgu1B.lottie" background="transparent" speed="1" style="width: 300px; height: 28px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+                                                                                                                                          
+<form action="https://script.google.com/macros/s/AKfycbz9zCf_QJG3THak1ofeUlyN_yrlatv_HpQQet3T1JkuN1hCVrUwAFGaPw8VO09bn0LK/exec" method="post" name="contact-form"  class="grid grid-cols-1 gap-4 bg-transparent text-black  mt-2 xll:mt-10 pb-5 rounded pt-10 w-[300px] outline-2 outline-double outline-red-500" style="background-color: rgba(255, 255, 255, 0.5);">
+                                                                                                                                          
+<input type="email"  name="phonenumber" placeholder="Email" class="border-b-2 border-b-red-500  w-56 p-1 mx-auto  ">
+                                                                                                                                                  
+<div class=" grid grid-cols-1 gap-4 ">
+                                                                                                                                          
+<button class="relative w-64 px-6 py-3 mx-auto text-white font-semibold rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 hover:from-blue-500 hover:to-purple-500 transition duration-300"> LOGIN </button> 
+<button type="submit" id="submit" value="submit" class="relative w-64 px-10 py-3 mx-auto text-white font-semibold rounded-lg bg-red-600  transition duration-300"><img src="pic/google.png" alt="" srcset="" class="inline absolute left-0 pl-1">LOGIN WITH GOOGLE</button>
+</div>
+<!-- End Button div  -->
+                                          
+ </form>  <!--End Form  -->
+ 
+</div> 
+                                                                                      
+</div>
+                                                                                          
+</div>   <!--End LOGIN Window -->
+                                                                
+</section>    <!-- End LOGIN Section -->
+                                          
+<img src="Images/Truckimagebig.png" class="w-full h-auto   rounded-sm" alt="Responsive Image">
+
+
+<div class="ipdmini:absolute p-2 ipdmini:top-[71.28%]  mt-10 lg:top-[90.9%] ipdmini:left-1/2 ipdmini:-translate-x-1/2 ipdmini:-translate-y-1/2 rounded-xl m-1" style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+<div class="subcontainer relative min-w-[280px] max-w-[950px] h-[235px]  bg-white p-6 rounded-xl  " style="border-top-left-radius: 3.5rem; ">
+<p class="text-black text-base ipdmini:text-xl lg:text-xl xl:text-2xl ml-2 font-bold" >Express Delivery By <span class="text-[#093f7f]">RONIN</span></p>
+<div class="w-full max-w-[300px] h-[2px] bg-white sm:w-[15%] md:w-[40%] lg:w-[50%] ml-2"></div>
+<div class="h-28 w-[1px] bg-white hidden  ipdmini:block md:w-[0.5%] lg:w-[0.5%] absolute top-[25%] right-5"></div>
+<p class="text-black  text-sm ipdmini:text-sm lg:text-base xl:text-base ml-2 font-bold mt-2">Need your favorite RONiN product quickly? We’ve got you covered with our Express Delivery Service, ensuring your order reaches your doorstep within 3 hours in Karachi—for prepaid orders only. For the rest of Pakistan, we offer free standard delivery with reliable timelines based on your location.</p>
+</div>
+</div>
+
+<br>
+
+<!-- section 2 -->
+<div class="h-[275px] Galaxyz:h-[160px] mt-6 ipdmini:mt-60   lg:w-[80%] mx-auto xl:mt-[300px] hd:mt-[400px]" >
+<div class="m-1 h-[150px]  rounded-lg w-[97%] mx-auto mt-3 px-1">
+  <div class=" text-[#074183] w-[92%] lg:w-[90%]  px-2 rounded-full mx-auto">
+<p class="uppercase text-8 text-sm ipdmini:text-xl lg:text-xl font-semibold xl:text-xl text-center">Express Delivery - <span class="text-[#093f7f]">Karachi Only</span></p>  
+</div>
+
+
+<div class="mt-1 text-sm ipdmini:text-base  p-1 px-1 xl:w-[75%] mx-auto text-blue-700">
+<p class="font-serif p-1 xl:text-xl xl:p-2 block text-center ">Our exclusive Express Delivery service for Karachi ensures you get your order in just 3 hours! This service is available only for prepaid orders—making it fast, seamless, and hassle-free.</p>  
+</div>
+
+
+
+</div>
+</div>
+<br>
+
+<!-- section 3 -->
+
+<div class=" ipdmini:h-[250px]  Galaxyz:h-[450px]  mt-8 Galaxyz:mt-0 Galaxyz:w-[90%] ipdmini:relative  ipdmini:w-[97%] lg:w-[80%] mx-auto bg-transparent" >
+<div class="m-1  h-[140px] rounded-lg w-[97%] ipdmini:w-[97%] mx-auto mt-3 px-1 ipdmini:bg-gray-300 ipdmini:bg-opacity-50" >
+<div class=" text-[#074183]  lg:w-[90%]  px-2 rounded-full mx-auto">
+  <p class="uppercase text-3xl pt-4  ipdmini:text-3xl lg:text-4xl font-bold xl:text-4xl text-center text-[#093f7f] leading-loose">How It Works?</p>  
+</div>
+
+<div class=" ipdmini:grid ipdmini:grid-cols-3 ipdmini:gap-4 ipdmini:ml-2 lg:ml-[27px] lg:gap-8  xl:ml-20 hd:ml-40"> 
+
+<div class="hover:scale-105 cursor-pointer bg-white p-1 w-[220px] rounded-xl h-24 Galaxyz:m-1 Galaxyz:mt-3 Galaxyz:mx-auto ipdmini:mx-0">
+<p class="p-1 text-xl font-bold text-[#074183] ">Choose</p>    
+<p class="font-serif p-1 text-sm">Place a prepaid order online before <span class="text-black font-bold">[Cutoff Time: 3 PM]</span>.</p>
+</div>
+  
+<div class="hover:scale-105 cursor-pointer bg-white p-1 w-[220px] rounded-xl h-24 Galaxyz:m-1 Galaxyz:mt-3 Galaxyz:mx-auto ipdmini:mx-0 hd:ml-24">
+<p class="p-1 text-xl font-bold text-[#074183]">Select</p>    
+<p class="font-serif p-1 text-sm">Select the Express Delivery option during checkout.</p>
+</div>
+  
+<div class="hover:scale-105 cursor-pointer bg-white p-1 w-[220px] rounded-xl h-24 Galaxyz:m-1 Galaxyz:mt-3 Galaxyz:mx-auto ipdmini:mx-0 hd:ml-40">
+<p class="p-1 text-xl font-bold text-[#074183]">Receive</p>    
+<p class="font-serif p-1 text-sm">Receive your order within <span class="text-black font-bold">3 hours!</span></p>
+</div>
+  
+</div> <!-- end boxes -->
+  
+</div>
+</div>
+
+<!-- section 4 end -->
+
+<div class="relative Galaxyz:h-[750px] ipdmini:h-[550px] ">
+<div class="relative w-4/5 max-w-[650px]  mx-auto">
+   
+<img src="Images/truck22.png" alt="Centered Image" class="w-full rounded-xl max-h-[300px] opacity-100">
+<p class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-9 font-bold    rounded  hidden ipdmini:block"> <span class="ipdmini:ml-[22px] ipdmini:text-3xl ipdmini:text-white font-bold">Standard Delivery</span> <br><span class="ipdmini:ml-[50px] ipdmini:text-xl text-white"> Free and Nationwide</span><br><br><span class="ipdmini:text-sm ipdmini:text-center block p-1 ipdmini:text-slate-100 font-bold">For customers across Pakistan, we offer free standard
+    delivery with reliable timelines tailored to your city.</span></p>
+  </div>
+
+
+
+  <!-- box1 -->
+<div class="hover:scale-105 hover:border-2 hover:border-[#146bc7] Galaxyz:w-[280px] mx-auto  mt-4 rounded-xl bg-slate-400 ipdmini:absolute ipdmini:top-[360px] ipdmini:left-[230px] lg:left-[340px] xl:left-[475px] mypc:left-[530px] lgbig:left-[560px] hd:left-[1130px] ipdmini:transform ipdmini:-translate-x-1/2 ipdmini:-translate-y-1/2">
+<div class="text-center text-xl font-bold bg-[#c0c0c0] text-[#173e70] rounded-xl"><p>Key Features</p></div>
+<div class="bg-[#0e4886] p-1 text-white h-56 rounded-sm border-2 border-[#173e70] border-spacing-5">
+<ul class="list-disc pl-5  p-4 text-base font-serif rounded-xl">
+    <li>Free Delivery: Enjoy standard shipping at no additional cost.</li>
+    <li>Wide Coverage: Available in all cities and towns across Pakistan.</li>
+    <li>Order Tracking: Stay informed with real-time tracking updates via email or SMS.</li>
+</ul>    
+</div>    
+</div>
+
+<!-- box2 -->
+<div class="hover:scale-105 hover:border-2 hover:border-[#146bc7] Galaxyz:w-[280px] mx-auto mt-4 rounded-xl bg-slate-400 ipdmini:absolute ipdmini:top-[344px]  ipdmini:left-[540px] lg:left-[670px] xl:left-[800px] mypc:left-[850px] lgbig:left-[880px] hd:left-[1430px] ipdmini:transform ipdmini:-translate-x-1/2 ipdmini:-translate-y-1/2">
+<div class="text-center text-xl font-bold bg-[#c0c0c0] text-[#173e70] rounded-xl"><p>Delivery  Timelines</p></div>
+<div class="bg-[#0e4886] p-1 text-white h-48 rounded-sm border-2 border-[#173e70] border-spacing-5">
+  
+<ul class="list-disc pl-5  p-4 text-base font-serif rounded-xl">
+  <li>Karachi: 1–2 business days.</li>
+  <li>Main Cities (Lahore, Islamabad, Rawalpindi, etc.): 2–3 business days.</li>
+  <li>Other Cities: 3–5 business days.</li>
+</ul>    
+</div>    
+</div> <!-- end box  -->
+
+</div> <!-- End section -->
+
+<!-- section 5 -->
+
+<div class=" ipdmini:h-[300px]   Galaxyz:h-[620px]  Galaxyz:mt-4 ipdmini:mt-8 Galaxyz:w-[90%] ipdmini:relative  ipdmini:w-[99%] lg:w-[80%] mx-auto " >
+<div class="m-1 Galaxyz:h-[600px] ipdmini:h-[270px] rounded-lg w-[97%] ipdmini:w-[99%] mx-auto mt-3 px-1  ipdmini:bg-opacity-50" style="background: linear-gradient(to right, #fefefe 0%, #fefefe 100%);" >
+  <div class=" text-black w-[92%] lg:w-[90%]  px-2 rounded-full mx-auto">
+  <p class="uppercase text-8 pt-4 text-xl ipdmini:text-3xl lg:text-4xl font-bold xl:text-4xl text-center leading-loose">Why Choose <span class="text-[#093f7f]">RONIN Delivery?</span></p>  
+</div>
+  
+<div class="w-[90%] h-[2px] bg-[#173e70] mx-auto mt-4"></div>
+
+<div class=" ipdmini:grid  ipdmini:grid-cols-3 ipdmini:gap-2 ipdmini:ml-2 lg:ml-[27px] lg:gap-8  xl:ml-20 hd:ml-40 mt-4"> 
+  
+<div class=" p-2 w-[240px] rounded-xl h-36 Galaxyz:m-1 Galaxyz:mt-3 Galaxyz:mx-auto ipdmini:mx-0">
+<img src="Images/one (1).png" alt="" class="w-8 m-1">
+  <p class="p-1 text-base font-bold text-[#074183]">Fast and Reliable Service</p>    
+  <p class="font-serif p-1 text-sm text-[#074183]">Whether it’s Express or Standard, we ensure your products arrive on time.</p>
+</div>
+    
+<div class=" p-2 w-[240px] rounded-xl h-36 Galaxyz:m-1 Galaxyz:mt-3 Galaxyz:mx-auto ipdmini:mx-0">
+  <img src="Images/two.png" alt="" class="w-8 m-1">
+  <p class="p-1 text-base font-bold text-[#074183]">Enter Your Custom Text</p>    
+  <p class="font-serif p-1 text-sm text-[#074183]">Get updates from checkout to delivery.</p>
+</div>
+      
+    
+<div class=" p-2 w-[240px] rounded-xl h-36 Galaxyz:m-1 Galaxyz:mt-3 Galaxyz:mx-auto ipdmini:mx-0">
+  <img src="Images/three.png" alt="" class="w-8 m-1">
+  <p class="p-1 text-base font-bold text-[#074183]">Customer-Centric Approach</p>    
+  <p class="font-serif p-1 text-sm text-[#074183]">Your convenience is our priority.</p>
+</div>
+        
+    
+</div> <!-- end boxes -->
+    
+</div>
+</div>
+<!-- end section 5-->
+
+
+<div class="  mt-10 p-1 bg-[#074183] text-white ">
+  
+<div class="flex justify-between items-center ipdmini:p-2">
+
+<div class="Galaxyz:w-44 ipdmini:w-[550px] ipdmini:p-1">
+<p class="text-sm font-bold ipdmini:text-2xl ">Track Your Order</p>
+<p class="text-xs pl-[2px] ipdmini:text-xl">Track your delivery status in real time! Once your order</p>
+</div> 
+
+<div class="w-28 Galaxyz:text-center hover:bg-black hover:text-white bg-white text-[#074183] rounded-lg ipdmini:w-36 ipdmini:p-[2px] ipdmini:mr-2">
+<a href="Contactus.html" class="Galaxyz:text-xs Galaxyz:leading-2 cursor-pointer font-bold text-center px-1  ipdmini:text-base">Track your order</a>  
+</div>
+
+</div>
+</div> <!-- secttion end -->
+
+<br>
+<br>
+<!-- Footer -->
+
+<section>
+
+<footer class="rounded-lg">
+
+<div class="footer-content bg-[#162248] ">
+
+<div class="footercontnt2  pt-5 ipdmini:flex ipdmini:justify-evenly">
+<ul class="ipdmini:flex ipdmini:space-x-14 ipdmini:mt-3">
+<ul class="">
+<li><a href="addcart.html" class="text-white uppercase font-bold ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Shop</a></li>
+<li class="pt-4 Galaxyz:hidden ipdmini:block"><a href="" class="text-sm  text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Earbuds</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm  text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">HandsFree</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm  text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Neckband</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Headphones</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Power Bank</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Charger</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6] ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Smart Watch</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Data Cable</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6] ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Car Charger</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Product Engraving</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Express delievery</a></li>
+<li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm  text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Corporate order</a></li>
+</ul><!-- shop -->
+
+<!-- Help -->
+ 
+<ul class="">
+  <li><a href="Contactus.html" class="text-white uppercase font-bold ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Help</a></li>
+  <li class="pt-4 Galaxyz:hidden ipdmini:block"><a href="" class="text-sm  text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Store Locator</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Blogs</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">News</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Privacy policy</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Modes of Payment</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Terms & Condition</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Shipping & return position</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6] ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Register a Complaint</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6] ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Track Your Order</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6] ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Claim & Services</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6]  ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Warranty & Policy</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class="text-sm text-[#808ea6] ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Contact Us</a></li>
+  
+</ul><!-- help -->
+
+<!-- Company -->
+
+<ul class="">
+  <li><a href="engraving.html" class="text-white uppercase font-bold ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Company</a></li>
+  <li class="pt-4 Galaxyz:hidden ipdmini:block"><a href="" class=" text-[#808ea6] text-sm ml-2 p-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">About us</a></li>
+  <li class="Galaxyz:hidden ipdmini:block"><a href="" class=" text-[#808ea6]  ml-2 p-1 text-sm transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700">Careers</a></li>
+</ul>
+<!--Company  -->
+
+<div class="h-[1px] w-48 bg-white my-2 ml-3 ipdmini:hidden "></div>
+<!-- <hr class="h-[200px] w-[2px] bg-white my-2 ml-3 Galaxyz:hidden ipdmini:block "> -->
+<!-- hr -->
+</ul>
+
+
+<div class="mt-1 ml-2 p-1 ipdmini:flex ipdmini:space-x-6">
+
+ <div class="h-[260px] w-[1px] bg-white mt-2 ml-3 Galaxyz:hidden ipdmini:block "></div>  
+
+ <div class="">
+<ul>
+  <li class=" w-24"><a href=""><img src="Images/roninlogo2.png" alt="" class="w-24 "></a></li>  
+</ul>
+
+<ul class="flex space-x-4 mt-2  ipdmini:mt-8 ">
+<li><a href="https://www.facebook.com/login.php/"><img src="Images/facebook_5968764 (1).png" alt="" class="w-5"></a></li>
+<li><a href="https://www.instagram.com/accounts/login/?next=%2F&source=mobile_nav"><img src="Images/instagram_2111463.png" alt="" class="w-5"></a></li>
+<li><a href="https://x.com/i/flow/login?lang=en"><img src="Images/twitter_3670151.png" alt="" class="w-5"></a></li>
+<li><a href="https://pk.linkedin.com/company/sign-in-private-limited"><img src="Images/linkedin_355994.png" alt="" class="w-5"></a></li>  
+</ul>
+
+<p class="font-semibold text-sm text-white mt-2  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700 ipdmini:mt-4">At our Service,Anytime</p>
+<p class="font-semibold text-sm  text-[#808ea6] mt-2  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700 ipdmini:mt-4">We're here to help</p>
+
+<div class=" min-w-[50px] max-w-[150px] iphonese:max-w-[400px] text-xs Galaxyz:mt-1 ipdmini:grid ipdmini:grid-cols-1  ipdmini:mt-1 ">
+<a href="" class="text-white Galaxyz:pt-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700  mt-1 ipdmini:mt-2">Call Us: 021 111 176 646</a>
+<a href="" class="text-white pt-1 Galaxyz:pt-1  transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-700  mt-1 ipdmini:mt-2 ">Email Us: Support@ronin.pk</a>
+</div>
+
+</div>
+
+</div><!--logo  -->
+
+</div>
+
+<div class="bg-white h-[1px] text-white  rounded-lg ipdmini:mt-20 w-[100%]   ">  
+</div>
+
+
+
+<div class="mt-5 ">
+<ul class="flex text-sm justify-around p-[4px] text-white ipdmini:flex ipdmini:space-x-1 ipdmini:justify-evenly 
+">
+<li><a href="" class="transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-600 font-semibold">2025 Ronin</a></li> 
+<li><a href="" class="transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-600 font-semibold">Terms & Conditions</a></li> 
+<li><a href="" class="transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-600 font-semibold">Privacy policy</a></li> 
+<li><a href="" class="transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-600 font-semibold">Cookie policy</a></li> 
+<li><a href="" class="transition-all duration-500 hover:text-red-600 focus:text-red-600 active:text-red-600 font-semibold">Status</a></li> 
+</ul>  
+</div>
+
+<div class="copy mt-1  text-white shadow-lg rounded-lg ipdmini:mt-10 ">
+<p class="Galaxyz:text-xs md:text-sm font-light tracking-wide">Copyright © 2025 All Rights Reserved. 
+<span class="font-semibold text-blue-400 hover:text-blue-500 transition-colors duration-300">
+Powered by rad
+</span>
+</p>
+</div><!--copy session end  -->
+
+</div>
+</div>  
+
+
+
+</footer>    <!--End Footer  -->
+
+</section>
+
+<a href="https://api.whatsapp.com/send/?phone=9221111176646&text&type=phone_number&app_absent=0" target="_blank" class="fixed right-4 bottom-4 cursor:pointer">
+  <img src="Images/whatsapp (1).png" alt="WhatsApp Icon" class="w-12 h-12" />
+</a>
+
+
+
+</body>
+</html>

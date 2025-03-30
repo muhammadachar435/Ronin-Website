@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    
+.imgslider{
+    @apply  mypc:w-[1366px]  xsl2:w-[1100px] xsl3:w-[1446px]  xsl:w-[1047px] lgsmall:w-[884px] hd:w-[2560px] xl:w-[1280px] vivo2:w-[364px]  vivi30:w-[384px] viv0y30:w-[387px] vivo3:w-[350px] vivo4:w-[410px] vivo5:w-[720px] iphone12:w-[390px] nesthub:w-[629px] iphone14pro:w-[430px]  vivoheignt:w-[618px] vivoheight2:h-[285.73228346px] resdim:w-[426px] w-full max-w-[720px]  vivonew:w-[436px]  ipdair:w-[284.5px] samsung8:w-[360px] iphone11:w-[414px] viviy30:w-[380px] iphone11pro:w-[404px]  Galaxyz4:w-[344px] vivo:w-[372px]   xll:w-[1340px]  xll:h-[90vh] lg:w-[64rem] sm:w-[40rem] Galaxyz:w-[20rem] iphonese:w-[23.44rem] iphone14:w-[26.563rem] ipdmini:w-[48rem] lgbig:w-[91rem]  ipdmini:max-w-full  ipdmini:h-full  ipdmini:object-cover Galaxyz:max-w-full Galaxyz:h-full Galaxyz:object-cover lg:max-w-full lg:h-full lg:object-cover;
+}
+    
+}  
+
+@layer utilities{
+
+.buttons{
+    @apply lg:absolute lg:top-1/2 lg:left-2 lg:w-[98%] lg:flex lg:justify-between mypc:absolute mypc:top-1/2 mypc:left-2 mypc:w-[98%] mypc:flex mypc:justify-between  Galaxyz:absolute Galaxyz:top-1/2 Galaxyz:left-2 Galaxyz:w-[95%] Galaxyz:flex Galaxyz:justify-between ipdmini:w-[98%];
+}
+}
+
+@layer components{
+
+.imgslider1{
+    @apply  mypc:w-[150px]  mypc:bottom-[-40px]  lg:w-[150px] lg:h-[150px]  lg:max-w-full  lg:object-cover;
+}
+}  
+
+
+
+@layer components{
+
+.imgvideo1{
+    @apply  mypc:w-[300px]  mypc:h-[410px] hd:w-[300px]  hd:h-[410px] lgbig:w-[200px] lgbig:h-[390px]   lg:w-[300px] lg:h-[410px]  lg:max-w-full  lg:object-cover;
+}
+} 
+
+@layer components{
+.clip-path-right {
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+  }
+}

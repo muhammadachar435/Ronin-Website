@@ -1,0 +1,221 @@
+ /* Main Sidebar */
+ .sidebar {
+    width: 250px;
+    height: 94vh;
+    background:#e8ebf0;
+    position: fixed;
+    left: -250px; /* Initially hidden */
+    top: 0;
+    padding-top: 20px;
+    color: white;
+    transition: left 0.3s ease-in-out;
+    z-index: 1;
+   
+}
+
+.sidebar a {
+    display: block;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 4px; */
+}
+.simpleanchor a{
+    text-decoration: none;
+    box-shadow: none;
+    font-size: 15px;
+    padding-top: 0px;
+    font-weight: normal;
+    padding: 1px;
+
+}
+.simpleanchor a:active{
+    color: red;
+}
+
+
+.sidebar a:active {
+color: rgb(253, 41, 41);
+}
+
+/* Open Menu Button */
+
+.menu-btn {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 3;
+    display: none; /* Hidden above 780px */
+}
+
+/* Child Sidebar */
+.child-sidebar {
+    width: 250px;
+/* width: 100%; */
+    height: 94vh;
+/* height: 0px; */
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 2px;
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.sidebarrough {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 250px;
+    height: 0px;
+    background-color: white;
+    overflow: hidden;
+    transition: width 0.3s ease;
+} 
+
+
+.close-btn1 {
+
+    color: black;
+    padding: 1px;
+    margin-top: 9px;
+    margin-right: 98px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* 2nd child */
+
+.child-sidebar12 {
+    width: 250px;
+/* width: 100%; */
+    height: 94vh;
+/* height: 0px; */
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 2px;
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+}
+.close-btn2 {
+    font-weight: 500;
+     color: black;
+     padding: 1px;
+     margin-top: 10px;
+     margin-right: 98px;
+     text-align: center;
+     cursor: pointer;
+     font-size: 17px;
+ }
+.close-charging {
+    font-weight: 500;
+    color: black;
+    padding: 1px;
+    margin-top: 10px;
+    margin-right: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* 3rd child */
+
+
+.child-sidebar13 {
+    width: 250px;
+    height: 94vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 2px;
+    display: none;
+    z-index: 2;
+}
+.close-btn3 {
+    font-weight: 500;
+     color: black;
+     padding: 1px;
+     margin-top: 10px;
+     margin-right: 110px;
+     text-align: center;
+     cursor: pointer;
+     font-size: 17px;
+ }
+
+/* 4th child */
+
+
+.child-sidebar14 {
+    width: 250px;
+    height: 94vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 2px;
+    display: none;
+    z-index: 2;
+}
+.close-btn4 {
+    font-weight: 500;
+     color: black;
+     padding: 1px;
+     margin-top: 10px;
+     margin-right: 110px;
+     text-align: center;
+     cursor: pointer;
+     font-size: 17px;
+ }
+
+.close-asseccories {
+    font-weight: 500;
+     color: black;
+     padding: 1px;
+     margin-top: 10px;
+     margin-right: 120px;
+     text-align: center;
+     cursor: pointer;
+     font-size: 17px;
+ }
+
+
+.viewall:active{
+ color: rgb(77, 77, 255);
+}
+
+@media (max-width: 780px) {
+    .menu-btn {
+        display: block; /* Show button */
+    }
+}
+.sidebarchild1{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    gap: 1px;
+    padding-left: 1px;
+    padding: 5px;
+    padding-top: 4px;
+
+}
+.btntoggle:active{
+    color: rgb(253, 34, 34);
+}

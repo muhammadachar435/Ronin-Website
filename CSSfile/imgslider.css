@@ -1,0 +1,93 @@
+.slider-containerimg {
+    width: 100%; 
+    max-width: 2560px; 
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.sliderimgsmall {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    width: max-content; /* Ensures all videos fit properly */
+    animation: slide 25s linear infinite;
+}
+.sliderimgsmall:hover{
+    animation-play-state: paused;
+}
+
+.sliderimgsmall img {
+
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    /* border: 2px solid ; */
+    
+}
+
+
+/* Animation */
+@keyframes slide {
+
+0% { transform: translateX(0); }
+    
+100% { transform: translateX(-50%); }
+}
+
+/* Responsive Fixes */
+@media (max-width: 1024px) {
+
+    .sliderimgsmall img {
+        width: 220px;
+        height: 350px;
+        display:flex;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .sliderimgsmall img {
+        width: 220px;
+        height: 350px;
+        display:flex;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .sliderimgsmall img {
+        width: 220px;
+        height: 350px;
+        display:flex;
+    }
+}
+@media (max-width: 2560px) {
+
+    .sliderimgsmall img {
+        width: 220px;
+        height: 350px;
+        display:flex;
+    }
+}
+@media (max-width: 768px) {
+
+.slider-containerimg1  {
+    width: 100%;
+    display:flex;
+}
+
+.sliderimgsmall img {
+    width: 120px;
+    height: 250px;
+}
+}
+
+@media (max-width: 480px) {
+
+.sliderimgsmall img {
+    width: 100px;
+    height: 176px;
+    display:flex;
+}
+}
