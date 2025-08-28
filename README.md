@@ -47,7 +47,6 @@ It includes:
 * **Tailwind CSS** – modern styling utilities  
 * **JavaScript (ES6)** – DOM interactions & cart logic  
 
----
 ## 🗂️ Folder Structure
 
 ```bash
@@ -67,9 +66,10 @@ ronin-website/
 ├── screenshots/
 │   └── ronin-home.png
 └── README.md
-```   <-- this closes the bash block
+```  <!-- properly closed here -->
 
 ## 🚀 Getting Started
+
 
 Clone the repo
 git clone https://github.com/OWNER/ronin-website.git
