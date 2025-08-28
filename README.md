@@ -48,7 +48,6 @@ It includes:
 * **JavaScript (ES6)** – DOM interactions & cart logic  
 
 ---
-
 ## 🗂️ Folder Structure
 
 ```bash
@@ -69,7 +68,9 @@ ronin-website/
 │   └── ronin-home.png
 └── README.md
 
-🚀 Getting Started
+```   <-- this closes the bash block
+
+## 🚀 Getting Started
 
 Clone the repo
 git clone https://github.com/OWNER/ronin-website.git
