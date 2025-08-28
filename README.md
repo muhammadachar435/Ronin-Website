@@ -65,3 +65,68 @@ ronin-website/
 ├── screenshots/
 │   └── ronin-home.png
 └── README.md
+
+---
+
+🚀 Getting Started
+Clone the repo
+
+git clone https://github.com/OWNER/ronin-website.git
+cd ronin-website
+
+Run locally
+
+Open index.html directly in your browser, or
+
+Use VS Code Live Server for auto reload.
+
+🛒 Cart Overview
+
+Cart items stored in localStorage
+
+Structure: { id, name, price, qty, image }
+
+Actions: add, remove, update quantity, clear cart
+
+🚢 Deployment
+Vercel
+
+Import GitHub repo into Vercel
+
+Select Other (static) framework preset
+
+No build command required
+
+GitHub Pages
+
+Push to main
+
+Enable GitHub Pages in repo settings
+
+Netlify
+
+Import repo → select build as static → deploy
+
+🤝 Contributing
+
+Fork the repository
+
+Create feature branch: git checkout -b feature/name
+
+Commit: git commit -m "feat: add X"
+
+Push: git push origin feature/name
+
+Create a Pull Request 🎉
+
+📄 License
+
+This project is licensed under the MIT License.
+
+📬 Contact
+
+LinkedIn: https://www.linkedin.com/in/muhammad-achar-80b6bb311/
+
+Instagram: https://www.instagram.com/muhammadacharzardari/
+
+GitHub: https://github.com/muhammadachar435
