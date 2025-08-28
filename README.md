@@ -3,7 +3,7 @@
 A sleek and modern **HTML, CSS (Tailwind), and JavaScript** **E-commerce website clone** inspired by Samurai aesthetics.  
 Built for responsive performance with features like a shopping cart and smooth animations.
 
-![Screenshot](./screenshots/ronin-home.png)
+![Screenshot](https://github.com/muhammadachar435/Ronin-Website/blob/d886be29f28f9cd5114a9b9a7471340fadb69635/LandingPage.png)
 
 <p align="left">
   <a href="https://github.com/OWNER/ronin-website/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/OWNER/ronin-website?style=social"></a>
