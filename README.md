@@ -1,4 +1,4 @@
-# 🥷 The Ronin Website Clone
+#  ⌚ The Ronin Website Clone
 
 A sleek and modern **HTML, CSS (Tailwind), and JavaScript** **E-commerce website clone** inspired by Samurai aesthetics.  
 Built for responsive performance with features like a shopping cart and smooth animations.
@@ -17,8 +17,7 @@ Built for responsive performance with features like a shopping cart and smooth a
 
 ## 🌐 Live Demo
 
-* **Production URL:** [https://your-vercel-or-domain-link](https://your-vercel-or-domain-link)  
-* **Backup (GitHub Pages):** [https://your-username.github.io/ronin-website](https://your-username.github.io/ronin-website)
+* **Production URL:** [https://your-vercel-or-domain-link](https://ronin-website-two.vercel.app/) 
 
 ---
 
