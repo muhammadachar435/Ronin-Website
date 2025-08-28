@@ -66,6 +66,7 @@ ronin-website/
 ├── screenshots/
 │   └── ronin-home.png
 └── README.md
+
 ```  <!-- properly closed here -->
 
 ## 🚀 Getting Started
@@ -80,7 +81,7 @@ Open index.html directly in your browser, or
 Use VS Code Live Server for auto reload.
 
 ---
-🛒 Cart Overview
+## 🛒 Cart Overview
 
 Cart items stored in localStorage
 Structure: { id, name, price, qty, image }
@@ -88,7 +89,7 @@ Actions: add, remove, update quantity, clear cart
 
 ---
 
-🚢 Deployment
+## 🚢 Deployment
 
 1- Vercel
 
