@@ -67,7 +67,6 @@ ronin-website/
 ├── screenshots/
 │   └── ronin-home.png
 └── README.md
-
 ```   <-- this closes the bash block
 
 ## 🚀 Getting Started
